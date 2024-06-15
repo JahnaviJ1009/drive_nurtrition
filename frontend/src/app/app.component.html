@@ -1,0 +1,30 @@
+<body >
+  <h3> Drive Nutrition </h3>
+ 
+  <nav>
+    <ul *ngIf="user_name" >
+      <!-- <li><a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">Login </a>
+      </li>
+      <li><a routerLink="/signup" routerLinkActive="active" ariaCurrentWhenActive="page">Signup</a>
+      </li> -->
+      <li> <button (click)="onLogout()"> Logout </button> </li>
+      <li><a routerLink="/recommendations" routerLinkActive="active" ariaCurrentWhenActive="page">Recommendations</a>
+      </li>
+      <li><a routerLink="/intake" routerLinkActive="active" ariaCurrentWhenActive="page">Food Intake</a>
+      </li>
+      <li><a routerLink="/education" routerLinkActive="active" ariaCurrentWhenActive="page">Education and Tips </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- The routed views render in the <router-outlet>-->
+  <router-outlet></router-outlet>
+</body>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
